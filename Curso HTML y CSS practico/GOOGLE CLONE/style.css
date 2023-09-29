@@ -1,0 +1,177 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;   
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.nav-right-section{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+
+.menu-icon{
+    background-image: url("https://cdn3.iconfinder.com/data/icons/minicons-for-web-sites/24/minicons-51-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-right-section li a img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+.main-logo img{
+    height: 100px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-input-container{
+    display: flex;
+    width: 550px;
+    height: 31px;
+    border-radius: 70px;
+    margin-bottom: 25px;
+    border: 1px solid #dfe1e5;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-input-container input{
+    width: 470px;
+    height: 28px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500 ;
+}
+
+.search-icon{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3128/3128287.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.micro-icon{
+    background-image: url("https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.main-buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main-buttons button{
+    border-radius: 6px;
+    border: none;
+    height: 35px;
+    color: #5f6368;
+}
+
+.main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px 0 #000001; 
+    color: #222
+}
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute; /*con el position absolute y bottom 0, aseguro que el footer va a estar en la parte de abajo de la pagina*/
+    bottom: 0;
+    display: grid; /*Todo lo que esté adentro de grid, que es como una cuadricula va a ser parte de esta*/
+    grid-template-columns: 1fr 1fr; /*Esta propiedad me ayuda a que al utilizar grid, me divida la sección en 2 fracciones, para eso es el 1fr 1fr*/
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    gap: 19px;
+    padding-left: 0;
+    
+}
+
+.footer-left{
+    justify-self: left;
+}
+
+.footer-right{
+    justify-self: right;
+}
+
+.footer ul li a{
+    color: #5f6368;
+}
+
+
+
+
+

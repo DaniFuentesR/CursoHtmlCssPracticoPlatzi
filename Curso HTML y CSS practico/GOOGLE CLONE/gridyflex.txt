@@ -1,0 +1,3 @@
+display: grid => se deberia utilizar para ayudarme a posicionar las etiquetas contenedoras como header, main, footer, etc
+
+display:flex => Se ocuparia para ayudarme a posicionar el contenido que va a ir dentro de las etiquetas contenedoras. 
